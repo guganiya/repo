@@ -1,0 +1,67 @@
+ body {
+            margin: 0;
+            overflow: hidden;
+        }
+        #controls {
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        canvas {
+            display: block;
+        }
+
+
+.project-card {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+   
+}
+
+.project-name{
+    font-weight:bold ;
+}
+
+#launch{
+    margin-left: 40px;
+    color: green;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#gravity {
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;     /* Rounded corners */
+    padding: 8px 12px;      /* Padding for better spacing */
+    font-size: 16px;        /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333;            /* Text color */
+    outline: none;          /* Remove default outline */
+    width: 100%;            /* Full width */
+    max-width: 200px;       /* Maximum width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  #gravity option {
+    background-color: #fff; /* Background color of options */
+    color: #333;            /* Text color of options */
+  }
+
+  /* Optional: Add styles for focus state */
+  #gravity:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus shadow */
+  }

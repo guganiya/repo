@@ -1,0 +1,42 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM Physics Simulation</title>
+    <link rel='stylesheet' href="css/bootstrap.min.css">
+    <link rel='stylesheet' href="css/style.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="angle">Angle: <span id="angleDisplay">45</span>°</label>
+        <input type="range" id="angle" min="0" max="90" value="45">
+        <br><br>
+        <label for="force">Force: <span id="forceDisplay">0.05</span></label>
+        <input type="range" id="force" min="0.01" max="0.2" step="0.01" value="0.05">
+        <br><br>
+        <label for="wind">Wind Speed:</label>
+        <input type="range" id="wind" min="-10" max="10" value="0">
+        <span id="windDisplay">0</span>
+        <br><br>
+        <label for="gravity">Select Gravity:</label>
+        <select id="gravity">
+        <option value="earth">Earth</option>
+        <option value="moon">Moon</option>
+        <option value="mars">Mars</option>
+        </select>
+        <br><br>    
+        <button id="launch">Launch</button>
+    </div>
+
+    <div class="project-card">
+        <h2 class="project-name">Physics Simulation Project</h2>
+        <p class="student-name">Bekjanow Begjan</p>
+        <p class="student-group">Group 3PI</p>
+    </div>
+    
+    <script src="js/matter.min.js"></script>
+    <script src="js/simulation.js"></script>
+    <script src="js/bootstrap.bundle.min.js'"></script>
+</body>
+</html>
